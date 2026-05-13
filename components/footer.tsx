@@ -1,10 +1,10 @@
 /**
  * Footer Component
- * 
+ *
  * Main website footer with navigation links and brand information.
  * Displays company branding, service links, newsletter signup,
  * social media icons, and copyright information.
- * 
+ *
  * Features:
  * - Responsive grid layout (1 column mobile, 4 columns desktop)
  * - Brand logo and tagline
@@ -12,7 +12,7 @@
  * - Newsletter subscription section
  * - Social media links
  * - Copyright notice
- * 
+ *
  * @component
  */
 

@@ -1,11 +1,11 @@
 /**
  * Admin Products Management Page
- * 
+ *
  * @description Admin dashboard page for managing product catalog.
  * Provides interface for viewing, editing, and deleting products.
- * 
+ *
  * @route /admin/products
- * 
+ *
  * @features
  * - Product list with search and filtering
  * - Product creation (link to new product form)
@@ -13,7 +13,7 @@
  * - Stock and sales statistics
  * - Product visibility toggle (active/inactive)
  * - Real-time product catalog updates
- * 
+ *
  * @access Admin users only
  */
 "use client";

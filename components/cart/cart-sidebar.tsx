@@ -1,9 +1,9 @@
 /**
  * Cart Sidebar Component
- * 
+ *
  * @description Sliding sidebar displaying shopping cart contents.
  * Provides cart management functionality with real-time updates.
- * 
+ *
  * @features
  * - Cart items display with images and details
  * - Quantity adjustment controls
@@ -13,7 +13,7 @@
  * - Empty cart state
  * - Slide-in animation
  * - Zustand state management integration
- * 
+ *
  * @usage
  * Triggered by cart icon in header, slides in from right side.
  */

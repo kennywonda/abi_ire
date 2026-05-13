@@ -1,9 +1,9 @@
 /**
  * Page Skeleton Component
- * 
+ *
  * @description Full page loading skeleton including navbar and content areas.
  * Provides complete page structure placeholder during initial load.
- * 
+ *
  * @features
  * - Navbar skeleton with logo and navigation items
  * - Content area placeholders
@@ -11,7 +11,7 @@
  * - Responsive design
  * - Full page layout maintenance
  * - Smooth loading experience
- * 
+ *
  * @usage
  * Used in app loading.tsx for full page loading states
  */

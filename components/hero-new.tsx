@@ -1,9 +1,9 @@
 /**
  * Hero New Component - Alternative Hero Design
- * 
+ *
  * @description Alternative hero section with enhanced visual design.
  * Features carousel, animations, and improved layout.
- * 
+ *
  * @features
  * - Image carousel with navigation
  * - Loading skeleton states
@@ -11,7 +11,7 @@
  * - Responsive design
  * - CTA buttons
  * - Auto-play carousel
- * 
+ *
  * @usage
  * Alternative to default hero component for homepage
  */

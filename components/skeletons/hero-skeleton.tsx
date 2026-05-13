@@ -1,9 +1,9 @@
 /**
  * Hero Skeleton Component
- * 
+ *
  * @description Loading skeleton for hero section on homepage.
  * Displays placeholder content while hero section loads.
- * 
+ *
  * @features
  * - Full hero section layout placeholder
  * - Text content skeletons
@@ -11,7 +11,7 @@
  * - CTA button skeletons
  * - Responsive layout (desktop/mobile)
  * - Matches actual hero dimensions
- * 
+ *
  * @usage
  * Used in loading.tsx or Suspense fallback for hero section
  */

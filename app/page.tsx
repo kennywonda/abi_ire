@@ -1,9 +1,9 @@
 /**
  * Home Page
- * 
+ *
  * Main landing page displaying all homepage sections.
  * Composed of multiple reusable components.
- * 
+ *
  * Sections:
  * - Navbar: Main navigation with cart
  * - Hero: Main banner with CTA
@@ -13,7 +13,7 @@
  * - Why Choose Us: Feature highlights
  * - Newsletter: Email subscription form
  * - Footer: Site footer with links
- * 
+ *
  * @page
  */
 

@@ -1,9 +1,9 @@
 /**
  * Newsletter Component
- * 
+ *
  * Email subscription section for collecting customer email addresses.
  * Features elegant design with decorative elements and call-to-action.
- * 
+ *
  * Features:
  * - Email input form with validation
  * - Decorative background elements
@@ -13,7 +13,7 @@
  * - Gradient background effects
  * - Corner decorative elements
  * - Subscribe button
- * 
+ *
  * @component
  */
 

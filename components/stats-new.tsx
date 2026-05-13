@@ -1,9 +1,9 @@
 /**
  * Stats New Component - Alternative Statistics Section
- * 
+ *
  * @description Alternative statistics section with gradient background.
  * Displays key business metrics and achievements.
- * 
+ *
  * @features
  * - Gradient background (beige tones)
  * - Decorative blur elements
@@ -11,7 +11,7 @@
  * - Achievement highlights
  * - Responsive grid layout
  * - Animated decorative elements
- * 
+ *
  * @usage
  * Alternative to default stats component for homepage
  */

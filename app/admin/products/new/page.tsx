@@ -1,11 +1,11 @@
 /**
  * Admin New Product Page
- * 
+ *
  * @description Form page for creating new products in the catalog.
  * Provides comprehensive product creation with multiple fields and validations.
- * 
+ *
  * @route /admin/products/new
- * 
+ *
  * @features
  * - Product information form (name, description, price)
  * - Category selection
@@ -14,7 +14,7 @@
  * - Product visibility settings
  * - Featured product designation
  * - Real-time validation
- * 
+ *
  * @access Admin users only
  */
 "use client";
@@ -972,4 +972,3 @@ export default function NewProductPage() {
     </div>
   );
 }
-

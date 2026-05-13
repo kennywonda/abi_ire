@@ -1,9 +1,9 @@
 /**
  * Register Page
- * 
+ *
  * New user registration page with account creation form.
  * Client component handling user signup.
- * 
+ *
  * Features:
  * - Name, email, password, and confirm password fields
  * - Client-side password validation
@@ -14,7 +14,7 @@
  * - Auto-login after successful registration
  * - Link to login page
  * - Error message display
- * 
+ *
  * @page
  */
 

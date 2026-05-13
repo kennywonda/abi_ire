@@ -1,11 +1,11 @@
 /**
  * Order Confirmation Page
- * 
+ *
  * @description Post-checkout confirmation page with order summary.
  * Displays successful order placement message and order details.
- * 
+ *
  * @route /orders/[id]/confirmation
- * 
+ *
  * @features
  * - Order confirmation message
  * - Order summary display
@@ -14,10 +14,10 @@
  * - Next steps guidance
  * - Navigation to order details
  * - Navigation to continue shopping
- * 
+ *
  * @params
  * - id: Order unique identifier
- * 
+ *
  * @authentication Required - redirects to login if not authenticated
  */
 import { notFound, redirect } from "next/navigation";

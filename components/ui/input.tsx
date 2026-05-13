@@ -1,9 +1,9 @@
 /**
  * Input Component
- * 
+ *
  * @description Reusable form input component with consistent styling.
  * Extends native HTML input element with enhanced visual design.
- * 
+ *
  * @features
  * - Consistent border and padding styling
  * - Focus ring for accessibility
@@ -11,12 +11,12 @@
  * - Placeholder text styling
  * - Disabled state styling
  * - Forward ref support for form libraries
- * 
+ *
  * @props
  * Extends all standard HTML input attributes
  * - type: Input type (text, email, password, number, etc.)
  * - className: Additional CSS classes
- * 
+ *
  * @usage
  * <Input type="text" placeholder="Enter your name" />
  */

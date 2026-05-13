@@ -1,11 +1,11 @@
 /**
  * Order Details Page
- * 
+ *
  * @description Customer-facing order details page showing complete order information.
  * Displays order status, items, shipping details, and tracking information.
- * 
+ *
  * @route /orders/[id]
- * 
+ *
  * @features
  * - Order details display (order number, date, status)
  * - Order items list with pricing
@@ -14,10 +14,10 @@
  * - Total price breakdown
  * - User authentication check
  * - Order ownership validation
- * 
+ *
  * @params
  * - id: Order unique identifier
- * 
+ *
  * @authentication Required - redirects to login if not authenticated
  */
 import { notFound, redirect } from "next/navigation";

@@ -1,9 +1,9 @@
 /**
  * Stats Component
- * 
+ *
  * Statistics section displaying key business metrics and achievements.
  * Shows social proof and company accomplishments.
- * 
+ *
  * Features:
  * - Three key statistics display
  * - Satisfied clients count (5K+)
@@ -11,7 +11,7 @@
  * - Client recommendation rate (98%)
  * - Responsive grid layout (1 column mobile, 3 columns desktop)
  * - Large bold numbers with descriptive text
- * 
+ *
  * @component
  */
 

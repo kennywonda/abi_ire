@@ -1,9 +1,9 @@
 /**
  * Admin Navigation Component
- * 
+ *
  * @description Navigation sidebar for admin dashboard pages.
  * Provides quick access to all admin management sections.
- * 
+ *
  * @features
  * - Active route highlighting
  * - Dashboard, Products, Categories, Orders links
@@ -11,7 +11,7 @@
  * - Return to store link
  * - Icon-based navigation
  * - Responsive design
- * 
+ *
  * @usage
  * Used in admin layout to provide consistent navigation across admin pages.
  */

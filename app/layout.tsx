@@ -1,9 +1,9 @@
 /**
  * Root Layout
- * 
+ *
  * Main application layout wrapping all pages.
  * Sets up global providers, fonts, metadata, and persistent UI elements.
- * 
+ *
  * Features:
  * - Custom Google Fonts (Geist Sans, Geist Mono)
  * - SessionProvider for NextAuth authentication
@@ -12,7 +12,7 @@
  * - Global CSS styles
  * - SEO metadata (title, description)
  * - HTML lang attribute for accessibility
- * 
+ *
  * @layout
  */
 

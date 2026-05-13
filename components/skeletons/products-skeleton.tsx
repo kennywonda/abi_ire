@@ -1,9 +1,9 @@
 /**
  * Products Skeleton Component
- * 
+ *
  * @description Loading skeleton for products section with grid layout.
  * Displays placeholder for product catalog while data loads.
- * 
+ *
  * @features
  * - Section title skeleton
  * - Category filter skeletons
@@ -11,7 +11,7 @@
  * - Multiple product card skeletons
  * - Maintains grid spacing
  * - Pulse animation
- * 
+ *
  * @usage
  * Used in Suspense fallback for products section or catalog pages
  */

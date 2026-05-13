@@ -1,11 +1,11 @@
 /**
  * Product Not Found Page
- * 
+ *
  * @description Custom 404 page for missing or unavailable products.
  * Provides user-friendly message and navigation options.
- * 
+ *
  * @route /product/[id]/not-found
- * 
+ *
  * @features
  * - Clear 404 error message
  * - Helpful explanation text

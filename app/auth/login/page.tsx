@@ -1,9 +1,9 @@
 /**
  * Login Page
- * 
+ *
  * User authentication page with email/password credentials.
  * Client component with form state management.
- * 
+ *
  * Features:
  * - Email and password input fields
  * - Form validation and error handling
@@ -13,7 +13,7 @@
  * - Link to registration page
  * - Remember me functionality
  * - Error message display
- * 
+ *
  * @page
  */
 

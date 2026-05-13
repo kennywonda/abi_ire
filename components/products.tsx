@@ -1,9 +1,9 @@
 /**
  * Products Component
- * 
+ *
  * Product listing with category filtering for showcasing collections.
  * Client component that allows users to filter products by category.
- * 
+ *
  * Features:
  * - Category filter tabs (All, Chair, Cabinet, Sofa, Bed)
  * - Product grid display
@@ -12,7 +12,7 @@
  * - Responsive grid layout
  * - Active category highlighting
  * - Filtered product display
- * 
+ *
  * @component
  */
 

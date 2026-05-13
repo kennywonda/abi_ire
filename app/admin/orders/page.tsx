@@ -1,11 +1,11 @@
 /**
  * Admin Orders Management Page
- * 
+ *
  * @description Admin dashboard page for managing all customer orders.
  * Provides comprehensive order tracking and status management.
- * 
+ *
  * @route /admin/orders
- * 
+ *
  * @features
  * - Order list with search and filtering
  * - Order status tracking (pending, processing, shipped, delivered)
@@ -14,7 +14,7 @@
  * - Order statistics and revenue tracking
  * - Customer information display
  * - Real-time order updates
- * 
+ *
  * @access Admin users only
  */
 "use client";
@@ -450,4 +450,3 @@ export default function AdminOrdersPage() {
     </div>
   );
 }
-

@@ -1,9 +1,9 @@
 /**
  * Product Details Component
- * 
+ *
  * @description Comprehensive product information display with interactive features.
  * Shows product details, images, pricing, and purchase options.
- * 
+ *
  * @features
  * - Product image gallery
  * - Product name, description, and pricing
@@ -14,10 +14,10 @@
  * - Product specifications
  * - Shipping and return information
  * - Social sharing options
- * 
+ *
  * @props
  * - product: Complete product object with all details
- * 
+ *
  * @usage
  * Used in product detail page to display full product information.
  */

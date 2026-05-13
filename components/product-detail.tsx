@@ -1,9 +1,9 @@
 /**
  * Product Detail Component - Standalone Version
- * 
+ *
  * @description Alternative product detail view with size/color selection.
  * Standalone component for product detail pages.
- * 
+ *
  * @features
  * - Size selection (S, M, L, XL, XXL)
  * - Color selection with visual swatches
@@ -13,7 +13,7 @@
  * - Star ratings display
  * - Product image gallery
  * - Breadcrumb navigation
- * 
+ *
  * @usage
  * Alternative to product-details component in product/[id] pages
  */

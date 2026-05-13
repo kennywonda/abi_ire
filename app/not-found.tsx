@@ -1,9 +1,9 @@
 /**
  * 404 Not Found Page
- * 
+ *
  * Error page displayed when user navigates to non-existent route.
  * Client component with navigation options.
- * 
+ *
  * Features:
  * - Large 404 number display
  * - Clear error message
@@ -12,7 +12,7 @@
  * - Centered layout
  * - Responsive design
  * - User-friendly error messaging
- * 
+ *
  * @page
  */
 

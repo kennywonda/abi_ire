@@ -1,9 +1,9 @@
 /**
  * Admin Dashboard Page
- * 
+ *
  * Main admin dashboard displaying overview statistics.
  * Protected admin-only page.
- * 
+ *
  * Features:
  * - Total products count card
  * - Categories count card
@@ -13,7 +13,7 @@
  * - Icon-based stat display
  * - Responsive grid layout
  * - Welcome header
- * 
+ *
  * @page
  * @protected Admin only
  */

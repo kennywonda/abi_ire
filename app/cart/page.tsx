@@ -1,18 +1,18 @@
 /**
  * Cart Page
- * 
+ *
  * Shopping cart page displaying user's cart items.
  * Composed page with navigation and footer.
- * 
+ *
  * Features:
  * - Cart items display from CartPage component
  * - Navigation bar with cart count
  * - Footer for consistent layout
  * - Remove items functionality
- * - Update quantities 
+ * - Update quantities
  * - Calculate totals
  * - Proceed to checkout button
- * 
+ *
  * @page
  */
 

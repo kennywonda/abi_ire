@@ -1,9 +1,9 @@
 /**
  * Navbar Component
- * 
+ *
  * Main navigation bar with shopping cart integration and user actions.
  * Client component that uses Zustand store for cart state management.
- * 
+ *
  * Features:
  * - Shopping cart icon with item count badge
  * - User account and wishlist icons
@@ -12,7 +12,7 @@
  * - Responsive navigation menu
  * - Real-time cart count updates
  * - Hydration-safe rendering
- * 
+ *
  * @component
  */
 

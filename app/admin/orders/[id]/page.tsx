@@ -1,11 +1,11 @@
 /**
  * Admin Order Details Page
- * 
+ *
  * @description Detailed view of a single order for admin management.
  * Allows viewing complete order information and updating order status.
- * 
+ *
  * @route /admin/orders/[id]
- * 
+ *
  * @features
  * - Complete order details display
  * - Customer information
@@ -14,7 +14,7 @@
  * - Order status timeline
  * - Status update functionality
  * - Order total calculations
- * 
+ *
  * @access Admin users only
  */
 "use client";

@@ -1,16 +1,16 @@
 /**
  * Header Component
- * 
+ *
  * Top navigation header displaying brand logo and main navigation links.
  * Includes brand identity (logo + name) and primary navigation menu.
- * 
+ *
  * Features:
  * - Brand logo and name
  * - Primary navigation (Products, About Us, Our Store)
  * - User action icons (Search, Shopping Bag, User)
  * - Responsive layout (mobile-friendly)
  * - Sticky header positioning
- * 
+ *
  * @component
  */
 

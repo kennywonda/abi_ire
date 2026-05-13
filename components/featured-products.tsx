@@ -1,9 +1,9 @@
 /**
  * Featured Products Component
- * 
+ *
  * Displays featured products fetched from API with cart integration.
  * Client component that shows highlighted products on the homepage.
- * 
+ *
  * Features:
  * - Fetches featured products from API
  * - Star rating display
@@ -14,7 +14,7 @@
  * - Links to individual product pages
  * - Stock availability display
  * - Sold count and rating indicators
- * 
+ *
  * @component
  */
 
@@ -317,4 +317,3 @@ export default function FeaturedProducts() {
     </section>
   );
 }
-

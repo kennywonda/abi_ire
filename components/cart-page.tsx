@@ -1,9 +1,9 @@
 /**
  * Cart Page Component
- * 
+ *
  * @description Full-page shopping cart view with item management.
  * Alternative to cart sidebar for detailed cart review.
- * 
+ *
  * @features
  * - Cart items display with images
  * - Quantity controls (increase/decrease)
@@ -12,7 +12,7 @@
  * - Continue shopping link
  * - Proceed to checkout button
  * - Empty cart state
- * 
+ *
  * @usage
  * Used in /cart route for full cart page view
  */

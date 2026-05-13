@@ -1,9 +1,9 @@
 /**
  * Quality Banner Component
- * 
+ *
  * Full-width promotional banner highlighting quality commitment.
  * Features gradient background and call-to-action button.
- * 
+ *
  * Features:
  * - Large heading with quality message
  * - Gradient background (gray-700 to gray-800)
@@ -13,7 +13,7 @@
  * - Product image placeholder
  * - Responsive text sizing
  * - Centered content layout
- * 
+ *
  * @component
  */
 

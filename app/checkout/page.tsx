@@ -1,9 +1,9 @@
 /**
  * Checkout Page
- * 
+ *
  * Order checkout and payment page with shipping address form.
  * Protected client component requiring authentication.
- * 
+ *
  * Features:
  * - Session-based authentication check
  * - Shipping address form with validation
@@ -15,7 +15,7 @@
  * - Success redirect after order creation
  * - Cart clearing on successful checkout
  * - Error handling and toast notifications
- * 
+ *
  * @page
  */
 

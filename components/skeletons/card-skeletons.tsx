@@ -1,19 +1,19 @@
 /**
  * Card Skeleton Components
- * 
+ *
  * @description Collection of skeleton loaders for card-based UI elements.
  * Provides loading states for product cards and statistics cards.
- * 
+ *
  * @components
  * - ProductCardSkeleton: Loading state for product card
  * - StatsCardSkeleton: Loading state for statistics card
- * 
+ *
  * @features
  * - Pulse animation effect
  * - Matches actual card dimensions
  * - Maintains layout during loading
  * - Responsive design
- * 
+ *
  * @usage
  * <ProductCardSkeleton />
  * <StatsCardSkeleton />

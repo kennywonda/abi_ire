@@ -1,9 +1,9 @@
 /**
  * Hero Component
- * 
+ *
  * Main hero section for the homepage showcasing brand message and CTA.
  * Features large typography, decorative SVG underlines, and image showcase.
- * 
+ *
  * Features:
  * - Bold headline with decorative SVG underline
  * - Compelling brand description
@@ -11,7 +11,7 @@
  * - Hero image with Next.js Image optimization
  * - Responsive layout (stacked mobile, side-by-side desktop)
  * - Trust indicators (customers served, satisfaction rate)
- * 
+ *
  * @component
  */
 

@@ -1,11 +1,11 @@
 /**
  * Product Details Page
- * 
+ *
  * @description Dynamic page displaying complete product information.
  * Shows product details, pricing, images, reviews, and add-to-cart functionality.
- * 
+ *
  * @route /product/[id]
- * 
+ *
  * @features
  * - Product information display (name, description, price)
  * - Product image gallery
@@ -14,7 +14,7 @@
  * - Product reviews and ratings
  * - Related products suggestions
  * - Server-side rendering for SEO
- * 
+ *
  * @params
  * - id: Product unique identifier
  */

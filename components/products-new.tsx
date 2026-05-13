@@ -1,9 +1,9 @@
 /**
  * Products New Component - Alternative Product Grid
- * 
+ *
  * @description Alternative product listing with enhanced filtering.
  * Features search, category filtering, and wishlist integration.
- * 
+ *
  * @features
  * - Product search functionality
  * - Category filtering
@@ -13,7 +13,7 @@
  * - Loading states
  * - Real-time filtering
  * - Zustand cart integration
- * 
+ *
  * @usage
  * Alternative to default products component for homepage/catalog
  */

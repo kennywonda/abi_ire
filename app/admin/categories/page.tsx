@@ -1,11 +1,11 @@
 /**
  * Admin Categories Management Page
- * 
+ *
  * @description Admin dashboard page for managing product categories.
  * Provides interface for creating, editing, and deleting categories.
- * 
+ *
  * @route /admin/categories
- * 
+ *
  * @features
  * - Category list with hierarchical structure
  * - Category creation with inline form
@@ -13,7 +13,7 @@
  * - Category activation/deactivation
  * - Slug management
  * - Real-time category updates
- * 
+ *
  * @access Admin users only
  */
 "use client";

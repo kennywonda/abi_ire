@@ -1,9 +1,9 @@
 /**
  * Why Choose Us Component
- * 
+ *
  * Feature highlights section showcasing company's unique selling points.
  * Interactive cards with expandable details using accordion pattern.
- * 
+ *
  * Features:
  * - Bespoke tailoring description
  * - Premium fabrics sourcing
@@ -13,7 +13,7 @@
  * - Color-coded icons for each feature
  * - Responsive grid layout
  * - Plus button for expanding details
- * 
+ *
  * @component
  */
 
@@ -171,4 +171,3 @@ export default function WhyChooseUs() {
     </section>
   );
 }
-
