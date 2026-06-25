@@ -19,9 +19,15 @@
 
 "use client";
 
-import { Plus, Scissors, Sparkles, Palette, Award } from "lucide-react";
+import { Plus, Scissors, Sparkles, Palette, Award, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+
+const videos = [
+  { id: "7647833011764989206", title: "Abi Ire Story" },
+  { id: "7647675725201411350", title: "Abi Ire Collection" },
+  { id: "7647540061596110102", title: "Abi Ire Behind the Scenes" },
+];
 
 const features = [
   {
@@ -56,6 +62,7 @@ const features = [
 
 export default function WhyChooseUs() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [videoIndex, setVideoIndex] = useState(0);
 
   return (
     <section className="py-20 bg-linear-to-br from-gray-50 to-white">
@@ -63,28 +70,42 @@ export default function WhyChooseUs() {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left - Video Section */}
           <div className="space-y-6">
-            <div className="relative bg-linear-to-br from-beige-200 via-beige-200 to-beige-300 rounded-3xl overflow-hidden h-112 lg:h-130 shadow-2xl group">
-              {/* Decorative Pattern Overlay */}
-              <div className="absolute inset-0 opacity-20">
-                <div className="absolute top-10 left-10 w-32 h-32 border-4 border-white rounded-full"></div>
-                <div className="absolute bottom-10 right-10 w-24 h-24 border-4 border-white rounded-full"></div>
-              </div>
-
-              <div className="absolute inset-0 flex items-center justify-center bg-linear-to-br from-beige-600/40 to-beige-600/40 group-hover:from-beige-600/50 group-hover:to-beige-600/50 transition-all">
-                <Button
-                  size="icon"
-                  className="w-20 h-20 rounded-full bg-white hover:bg-white shadow-2xl hover:scale-110 transition-transform"
-                >
-                  <div className="w-0 h-0 border-t-10 border-t-transparent border-l-16 border-l-beige-700 border-b-10 border-b-transparent ml-1"></div>
-                </Button>
-              </div>
-
-              {/* Floating Badge */}
-              <div className="absolute top-6 right-6 bg-white px-4 py-2 rounded-full shadow-lg">
-                <span className="text-sm font-bold text-beige-700">
-                  Watch Our Story
-                </span>
-              </div>
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-black flex items-center justify-center" style={{ minHeight: "560px" }}>
+              <iframe
+                key={videos[videoIndex].id}
+                src={`https://www.tiktok.com/embed/v2/${videos[videoIndex].id}`}
+                className="w-full h-full absolute inset-0"
+                style={{ minHeight: "560px" }}
+                allowFullScreen
+                allow="encrypted-media"
+                title={videos[videoIndex].title}
+              />
+              {/* Prev / Next buttons */}
+              <button
+                onClick={() => setVideoIndex((i) => (i - 1 + videos.length) % videos.length)}
+                className="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full bg-white/80 hover:bg-white shadow-md flex items-center justify-center transition"
+                aria-label="Previous video"
+              >
+                <ChevronLeft className="w-5 h-5 text-gray-800" />
+              </button>
+              <button
+                onClick={() => setVideoIndex((i) => (i + 1) % videos.length)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full bg-white/80 hover:bg-white shadow-md flex items-center justify-center transition"
+                aria-label="Next video"
+              >
+                <ChevronRight className="w-5 h-5 text-gray-800" />
+              </button>
+            </div>
+            {/* Dot indicators */}
+            <div className="flex justify-center gap-2">
+              {videos.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setVideoIndex(i)}
+                  className={`w-2.5 h-2.5 rounded-full transition-all ${i === videoIndex ? "bg-beige-700 scale-125" : "bg-gray-300 hover:bg-beige-400"}`}
+                  aria-label={`Video ${i + 1}`}
+                />
+              ))}
             </div>
             <div className="text-center bg-white rounded-2xl p-6 shadow-md">
               <p className="text-gray-700 font-medium text-lg">
